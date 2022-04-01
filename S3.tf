@@ -1,8 +1,8 @@
 resource "aws_s3_bucket" "bucket" {
-  bucket = "ga-test"
+  bucket = "gactions-kat-test"
 
   object_lock_enabled = false
   tags = {
-    Name = "S3 Remote Terraform State Store"
+    Name = "gactions-kat-test"
   }
 }
