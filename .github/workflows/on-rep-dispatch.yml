@@ -46,6 +46,7 @@ name: 'Terraform'
 
 on:
   repository_dispatch:
+    branches: [ main ]
     types: [my-event]
  
 
